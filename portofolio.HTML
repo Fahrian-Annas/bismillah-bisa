@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Fahrian Annas</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <h1>Fahrian Annas</h1> <div class="logo-container">
+                <img src="logo.png" alt="Logo" class="logo">
+            </div>
+            <nav>
+                <button class="hamburger" type="button" onclick="toggleMenu()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#projects">Projek</a></li>
+                    <li><a href="#education">Pendidikan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <li><a href="cv.pdf">CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="cvModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <embed type="application/pdf" src="cv.pdf"></embed>
+        </div>
+    </div>
+    
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <div class="about-content">
+            <img src="fahrian.jpg" width="200px" height="200px" title="Fahrian Annas">
+
+            <p>Saya merupakan seorang siswa jurusan GIM yang memiliki minat dalam mengembangkan sebuah game dan pengembangan perangkat lunak. 
+            Saat ini saya sedang menempuh pendidikan di SMKN 11 Semarang dan aktif mengembangkan keterampilan dalam bidang pemrograman, desain game, dan pengembangan aplikasi.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Keahlian</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <i class="fab fa-figma"></i>
+                <p>Figma</p>
+                <p>EXPERIENCED</p>
+            </div>
+            <div class="skill-item">
+                <img src="logo html.png" width="100" alt="Logo" class="logo">
+                <p>HTML</p>
+                <p>INTERMEDIATE</p>
+            </div>
+            <div class="skill-item">
+                <img src="logo ai.png" width="100" alt="Logo" class="logo">
+                <p>Adobe Illustrator</p>
+                <p>EXPERIENCED</p>
+            </div>
+            <div class="skill-item">
+                <img src="logo unity.png" width="100" alt="Logo" class="logo">
+                <p>Unity</p>
+                <p>INTERMEDIATE</p>  
+            </div>
+            <div class="skill-item">
+                <img src="logo blender (1).png" width="100" alt="Logo" class="logo">
+                <p>Blender</p>
+                <p>BEGGINER</p>  
+            </div>
+            <div class="skill-item">
+                <img src="logo css.png" width="100" alt="Logo" class="logo">
+                <p>css</p>
+                <p>INTERMEDIATE</p>  
+            </div>
+           
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projek karakter</h2>
+        <div class="project-slider">
+            <div class="project-card">
+                <div class="card-content">
+                    <img src="alien idle.jpg" class="image-monster"></img> 
+                    <div class="card-text">
+                        <h3><b>Karakter Monster</b></h3>
+                        <p>Dalam membuat karakter ini saya menggunakan aplikasi adobe illustrator</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <img src="max lari.jpg" class="image-monster"></img> 
+                    <div class="card-text">
+                        <h3><b>Karakter Max</b></h3>
+                        <p>Dalam membuat karakter ini saya menggunakan aplikasi adobe illustrator</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <img src="mobil 2.jpg" class="image-monster"></img> 
+                    <div class="card-text">
+                        <h3><b>Karakter Mobil</b></h3>
+                        <p>Dalam membuat karakter ini saya menggunakan aplikasi adobe illustrator</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <img src="mobil 1.jpg" class="image-monster"></img> 
+                    <div class="card-text">
+                        <h3><b>Karakter Mobil</b></h3>
+                        <p>Dalam membuat karakter ini saya menggunakan aplikasi adobe illustrator</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <img src="truk.jpg" class="image-monster"></img> 
+                    <div class="card-text">
+                        <h3><b>Karakter Truck</b></h3>
+                        <p>Dalam membuat karakter ini saya menggunakan aplikasi adobe illustrator</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <img src="jalan.jpg" class="image-monster"></img> 
+                    <div class="card-text">
+                        <h3><b>Background Jalan</b></h3>
+                        <p>Dalam membuat background ini saya menggunakan aplikasi adobe illustrator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projek Figma</h2>
+        <div class="project-slider">
+            <div class="project-card">
+                <div class="card-content">
+                    <a href="https://www.figma.com/design/XYHOsqst0dV70JSHQsFPuP/Untitled?node-id=0-1&t=WxejcIYvqNl2WZsi-1" target="_blank" class="foto-link">
+                    <img src="figma1.png" class="image-monster"></img> </a>
+                    <div class="card-text">
+                        <h3><b>UI Design Website</b></h3>
+                        <p>Membuat desain website dengan figma</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="project-card">
+                <div class="card-content">
+                    <a href="https://www.figma.com/design/skCgw1KmNm6yvJCnG94yS1/TUGAS-2?node-id=0-1&t=pTlEqhjE1tG6oZ8M-1" target="_blank" class="foto-link">
+                    <img src="figma 2.png" class="image-monster"></img> </a>
+                    <div class="card-text">
+                        <h3><b>UI Design Aplikasi Mobile</b></h3>
+                        <p>Membuat desain aplikasi mobile dengan Figma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section id="education">
+        <h2>Pendidikan</h2>
+        <div class="education-item">
+            <h3>SMKN 11 Semarang</h3>
+            <p>Jurusan GIM</p>
+            <p>2023 - Sekarang</p>
+        </div>
+        <div class="education-item">
+            <h3>SMPN 4 Ungaran</h3>
+            <p>2020 - 2023</p>
+        </div>
+        <div class="education-item">
+            <h3>SDN 2 Langensari</h3>
+            <p>2014 - 2020</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontak</h2>
+        <div class="contact-info">
+            <div class="social-links">
+                <a href="mailto:fahrianannas11@gmail.com" class="social-item" data-title="Email">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://instagram.com/fhrnns_" class="social-item" data-title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://tiktok.com/@fhrnns_" class="social-item" data-title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                    <span>TikTok</span>
+                </a>
+                <a href="https://github.com/FahrianAnnas" class="social-item" data-title="GitHub">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://wa.me/089530940031" class="social-item" data-title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://www.facebook.com/fahrian.annas.5" class="social-item" data-title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
